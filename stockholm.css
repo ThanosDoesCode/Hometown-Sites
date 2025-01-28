@@ -95,6 +95,7 @@ body {
     font-size: 22px;
     font-weight: bold;
     border-radius: 10px;
+    font-family: "Quicksand";
     margin: 100px 10px 0px 10px;
     transition: transform 0.3s ease-in-out; /* Smooth scaling effect for both hover in and out */
     transform: scale(1); /* Ensure initial scale is set to 1 */
