@@ -66,12 +66,12 @@ body {
 
 #activities a img, #foods a img, #places a img {
     border: 1px solid #121212;
-    transition: transform 0.3s ease-in-out; /* Smooth scaling effect for both hover in and out */
-    transform: scale(1); /* Ensure initial scale is set to 1 */
+    transition: transform 0.3s ease-in-out; 
+    transform: scale(1); 
 }
 
 #activities a:hover img, #foods a:hover img, #places a:hover img {
-    transform: scale(1.1); /* Scale the image by 10% on hover */
+    transform: scale(1.1); 
 }
 
 #activities p, h3, #foods p, h3, #places p, h3{
@@ -98,8 +98,8 @@ body {
     border-radius: 10px;
     font-family: "Quicksand";
     margin: 100px 10px 0px 10px;
-    transition: transform 0.3s ease-in-out; /* Smooth scaling effect for both hover in and out */
-    transform: scale(1); /* Ensure initial scale is set to 1 */
+    transition: transform 0.3s ease-in-out; 
+    transform: scale(1); 
 }
 
 .btn:hover{
@@ -112,6 +112,10 @@ body {
 .btn a{
     text-decoration: none;
     color: #121212;
+    display: block;
+    width: 100%;
+    height: 100%;
+    
 }
 
 /* CARD SECTION */
