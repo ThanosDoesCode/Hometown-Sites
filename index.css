@@ -22,7 +22,8 @@ body, html {
     border: 4px solid #121212;
     border-radius: 10px;
     margin: 10px;
-    font-family: inherit;
+    font-family: "Quicksand", sans-serif;
+    font-size: inherit;
     font-weight: bold;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
 }
@@ -38,6 +39,10 @@ body, html {
 .btn a {
     text-decoration: none;
     color: inherit;
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    text-align: center; 
 }
 
 .vibrant {
