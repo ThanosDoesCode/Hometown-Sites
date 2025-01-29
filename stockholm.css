@@ -84,6 +84,10 @@ body {
 #places, #activities{
     background-color: #F2F4F5;
 }
+
+#flexbox-activities, #flexbox-foods, #flexbox-places {
+    flex-wrap: wrap;
+}
 /*BUTTON SECTION*/
 
 .btn{
