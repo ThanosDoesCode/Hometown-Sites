@@ -73,7 +73,7 @@ body {
     transform: scale(1.1); /* Scale the image by 10% on hover */
 }
 
-#activities p, h3, #foods p, h3, #places p, h3{
+#activities p, #activities h3, #foods p, #foods h3, #places p, #places h3{
     width: 300px;
 }
 
