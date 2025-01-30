@@ -77,8 +77,8 @@ body {
     width: 300px;
 }
 
-#activities, #foods, #places{
-    
+#flexbox-activities, #flexbox-foods, #flexbox-places{
+    flex-wrap: wrap;
 }
 
 #foods{
