@@ -73,7 +73,7 @@ body {
     transform: scale(1.1); /* Scale the image by 10% on hover */
 }
 
-#activities p, #activities h3, #foods p, #foods h3, #places p, #places h3{
+#activities p, h3, #foods p, h3, #places p, h3{
     width: 300px;
 }
 
@@ -84,12 +84,8 @@ body {
 #places, #activities{
     background-color: #F2F4F5;
 }
-
-#flexbox-activities, #flexbox-foods, #flexbox-places {
-    flex-wrap: wrap;
-}
-
 /*BUTTON SECTION*/
+
 .btn{
     background-color: #F2F4F5;
     color: #F2F4F5;
@@ -100,7 +96,7 @@ body {
     font-weight: bold;
     border-radius: 10px;
     font-family: "Quicksand";
-    margin: 100px 10px 0px 10px;
+    margin: 15px 10px 0px 0px;
     transition: transform 0.3s ease-in-out; /* Smooth scaling effect for both hover in and out */
     transform: scale(1); /* Ensure initial scale is set to 1 */
 }
@@ -115,10 +111,6 @@ body {
 .btn a{
     text-decoration: none;
     color: #121212;
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
 }
 
 /* CARD SECTION */
@@ -176,7 +168,7 @@ body {
 
 img {
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 
 .round {
